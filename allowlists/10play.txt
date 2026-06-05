@@ -1,0 +1,10 @@
+# 10play (Network Ten) - Pi-hole allowlist
+# Requires: au-streaming-shared.txt
+# Updated: 2026-06
+
+pagead2.googlesyndication.com
+googleads.g.doubleclick.net
+tpc.googlesyndication.com
+collect.tealiumiq.com
+marketingplatform.google.com
+csi.gstatic.com

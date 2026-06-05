@@ -1,0 +1,7 @@
+# Spotify - Pi-hole allowlist
+# (iOS app and TV apps stop working if the web-service endpoints are blocked.)
+# Updated: 2026-06
+
+spclient.wg.spotify.com
+apresolve.spotify.com
+api-tv.spotify.com

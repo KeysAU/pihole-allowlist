@@ -1,0 +1,21 @@
+# Apple services - Pi-hole allowlist
+# App Store / iTunes, Apple Music, Apple ID, iOS Weather, Wi-Fi captive check.
+# Push (APNs) is a regex (add manually): (\.|^)push\.apple\.com$  -> see regex/regex-allow.txt
+# Updated: 2026-06
+
+# Apple Music / iTunes / App Store
+itunes.apple.com
+s.mzstatic.com
+
+# Apple ID
+appleid.apple.com
+
+# iOS Weather
+gsp-ssl.ls.apple.com
+gsp-ssl.ls-apple.com.akadns.net
+
+# Captive-portal / connectivity check
+captive.apple.com
+gsp1.apple.com
+www.apple.com
+www.appleiphonecell.com

@@ -1,0 +1,33 @@
+# Google services - Pi-hole allowlist
+# Maps, YouTube (history + iOS app), Play, Fonts, Gmail, Android TV, Push.
+# Push is also a broader regex (add manually): ^((alt)[0-9](-))?mtalk\.google\.com$
+#   -> see regex/regex-allow.txt
+# Updated: 2026-06
+
+# Maps & core Google services
+clients4.google.com
+clients2.google.com
+
+# YouTube watch history
+s.youtube.com
+video-stats.l.google.com
+
+# YouTube app (iOS)
+www.googleapis.com
+youtubei.googleapis.com
+oauthaccountmanager.googleapis.com
+
+# Google Play
+android.clients.google.com
+
+# Google Fonts
+gstaticadssl.l.google.com
+
+# Gmail (iOS app)
+googleapis.l.google.com
+
+# Android TV
+redirector.gvt1.com
+
+# Push notifications (some Android apps, e.g. WhatsApp)
+mtalk.google.com

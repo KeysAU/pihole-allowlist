@@ -1,0 +1,6 @@
+# WhatsApp - Pi-hole allowlist
+# Most WhatsApp coverage is via regex (add manually) -> see regex/regex-allow.txt
+# Updated: 2026-06
+
+wa.me
+www.wa.me

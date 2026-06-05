@@ -1,0 +1,22 @@
+# au-streaming-shared - Pi-hole allowlist
+# Shared backbone for Australian ad-supported catch-up apps (10, SBS, iView, 7plus, 9Now).
+# Add this FIRST, then the per-service file(s) you need.
+# These are ad / measurement / QoS domains the players gate on at launch.
+# Scope to your streaming device via Groups if you don't want them allowed network-wide.
+# Updated: 2026-06
+
+# Google ad / measurement (IMA SDK + dynamic ad insertion)
+imasdk.googleapis.com
+pubads.g.doubleclick.net
+s0.2mdn.net
+
+# OzTAM ratings + Conviva QoS + audience measurement
+deliver.oztam.com.au
+cws.conviva.com
+livepassdl.conviva.com
+pings.conviva.com
+nd.demdex.net
+cdn.permutive.app
+
+# Brightcove video API
+edge.api.brightcove.com

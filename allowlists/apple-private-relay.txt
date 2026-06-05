@@ -1,0 +1,13 @@
+# Apple Private Relay - Pi-hole allowlist
+# ===========================================================================
+#  WARNING: Allowing these makes Apple devices route DNS through Apple's
+#  encrypted relay, which means they BYPASS Pi-hole entirely - no filtering,
+#  no logging, no blocking for that device.
+#    - Add these ONLY if you want Private Relay to work.
+#    - If you want Pi-hole to filter Apple devices instead, do NOT allow these
+#      (or turn Private Relay off per-device).
+# ===========================================================================
+# Updated: 2026-06
+
+mask.icloud.com
+mask-h2.icloud.com

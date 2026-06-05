@@ -1,0 +1,14 @@
+# Twitter / X - Pi-hole allowlist
+# twimg.com (images/media) is a regex (add manually) -> see regex/regex-allow.txt
+# Updated: 2026-06
+
+# Legacy twitter.com
+twitter.com
+upload.twitter.com
+api.twitter.com
+mobile.twitter.com
+
+# x.com (post-rebrand)
+x.com
+api.x.com
+mobile.x.com

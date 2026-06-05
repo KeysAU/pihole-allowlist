@@ -1,0 +1,7 @@
+# ABC iView - Pi-hole allowlist
+# Requires: au-streaming-shared.txt
+# Plus regex (add manually): (\.|^)abc\.net\.au$   -> see regex/regex-allow.txt
+# Updated: 2026-06
+
+# Gigya / SAP Customer Data Cloud (login)
+cdns.au1.gigya.com

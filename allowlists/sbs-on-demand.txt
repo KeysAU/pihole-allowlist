@@ -1,0 +1,12 @@
+# SBS On Demand - Pi-hole allowlist
+# SBS uses the same ad/measurement stack as other AU catch-up apps, so its needs are
+# covered mainly by au-streaming-shared.txt. Add that first.
+# Plus regex (add manually): (\.|^)sbs\.com\.au$   -> see regex/regex-allow.txt
+#
+# Note: SBS uses server-side ad insertion on some streams; DNS can't strip those ads.
+#       The aim here is to get the player to load and play.
+#       If an "ad blocker detected" message appears, watch the Query Log while launching
+#       and append whatever SBS-specific domain shows as blocked.
+# Updated: 2026-06
+
+# (no SBS-unique exact domains required beyond the shared file + sbs.com.au regex)

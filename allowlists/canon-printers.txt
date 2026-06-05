@@ -1,0 +1,5 @@
+# Canon printers - Pi-hole allowlist
+# Required to retrieve firmware updates.
+# Updated: 2026-06
+
+gdlp01.c-wss.com
