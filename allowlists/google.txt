@@ -31,3 +31,10 @@ redirector.gvt1.com
 
 # Push notifications (some Android apps, e.g. WhatsApp)
 mtalk.google.com
+
+# Google Pixel / ChromeCast Wifi Connectivity Check
+connectivitycheck.gstatic.com
+connectivitycheck.android.com
+clients3.google.com
+www.gstatic.com
+play.googleapis.com
