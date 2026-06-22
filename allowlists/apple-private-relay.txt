@@ -4,8 +4,7 @@
 #  encrypted relay, which means they BYPASS Pi-hole entirely - no filtering,
 #  no logging, no blocking for that device.
 #    - Add these ONLY if you want Private Relay to work.
-#    - If you want Pi-hole to filter Apple devices instead, do NOT allow these
-#      (or turn Private Relay off per-device).
+#    - If you want Pi-hole to filter Apple devices instead, do NOT allow these.
 # ===========================================================================
 # Updated: 2026-06
 

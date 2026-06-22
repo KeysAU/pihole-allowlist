@@ -1,0 +1,10 @@
+# Reddit - Pi-hole allowlist
+# Plus regex (add manually) -> see regex/regex-allow.txt:
+#   [a-z]\.thumbs\.redditmedia\.com    (\.|^)redd\.it$    (\.|^)reddit\.com$
+# Updated: 2026-06
+
+styles.redditmedia.com
+www.redditstatic.com
+reddit.map.fastly.net
+www.redditmedia.com
+reddit-uploaded-media.s3-accelerate.amazonaws.com

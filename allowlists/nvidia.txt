@@ -1,0 +1,9 @@
+# NVIDIA - Pi-hole allowlist
+# GeForce Experience driver updates + OTA downloads.
+# Updated: 2026-06
+
+# GeForce Experience (driver updates)
+gfwsl.geforce.com
+
+# NVIDIA OTA / driver downloads
+ota-downloads.nvidia.com

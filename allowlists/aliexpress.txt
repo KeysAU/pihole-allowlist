@@ -1,0 +1,5 @@
+# AliExpress - Pi-hole allowlist
+# Fixes product images not loading on aliexpress.com.
+# Updated: 2026-06
+
+ae01.alicdn.com

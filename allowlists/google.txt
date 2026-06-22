@@ -1,5 +1,5 @@
 # Google services - Pi-hole allowlist
-# Maps, YouTube (history + iOS app), Play, Fonts, Gmail, Android TV, Push.
+# Maps, YouTube (history + iOS app), Play, Fonts, Gmail, Android TV, Push, connectivity check.
 # Push is also a broader regex (add manually): ^((alt)[0-9](-))?mtalk\.google\.com$
 #   -> see regex/regex-allow.txt
 # Updated: 2026-06
@@ -32,9 +32,7 @@ redirector.gvt1.com
 # Push notifications (some Android apps, e.g. WhatsApp)
 mtalk.google.com
 
-# Google Pixel / ChromeCast Wifi Connectivity Check
+# Connectivity check (fixes Android / Chromecast "no internet" drops)
 connectivitycheck.gstatic.com
 connectivitycheck.android.com
 clients3.google.com
-www.gstatic.com
-play.googleapis.com

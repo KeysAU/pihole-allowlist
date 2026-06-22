@@ -1,0 +1,6 @@
+# Epic Games Store - Pi-hole allowlist
+# Required to complete website purchases (the order modal otherwise spins forever) and to
+# log into the Epic launcher with two-factor authentication.
+# Updated: 2026-06
+
+tracking.epicgames.com

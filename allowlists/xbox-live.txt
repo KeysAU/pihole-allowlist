@@ -1,0 +1,20 @@
+# Xbox Live - Pi-hole allowlist
+# Sign-in, achievements, messaging, Store (Series X/S), EA Play.
+# Note: client-s.gateway.messenger.live.com also appears in microsoft.txt (Skype) - harmless.
+# Updated: 2026-06
+
+# Sign-in / account create / recovery (confirmed by Microsoft)
+clientconfig.passport.net
+
+# Achievements (confirmed by Microsoft)
+v10.events.data.microsoft.com
+v20.events.data.microsoft.com
+
+# Messaging
+client-s.gateway.messenger.live.com
+
+# Store app on Series X/S
+arc.msn.com
+
+# EA Play on Xbox
+activity.windows.com

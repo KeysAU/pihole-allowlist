@@ -1,7 +1,7 @@
 # Microsoft (Windows, Office, Skype) - Pi-hole allowlist
 # Updated: 2026-06
-# Note: a much longer Xbox Live block exists (sign-in, achievements, messaging) - not
-#       included here. Ask if you need it.
+# Note: the Xbox Live block (sign-in, achievements, messaging, Store, EA Play) is in
+#       xbox-live.txt.
 
 # Connectivity check (Windows falsely reports "No Internet" if these are blocked)
 www.msftncsi.com

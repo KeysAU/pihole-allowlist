@@ -1,0 +1,5 @@
+# Grand Theft Auto V Online (PC) - Pi-hole allowlist
+# Blocking Rockstar telemetry crashes GTA Online; allowing this domain fixes the crashing.
+# Updated: 2026-06
+
+prod.telemetry.ros.rockstargames.com

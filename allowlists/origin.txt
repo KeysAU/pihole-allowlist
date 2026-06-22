@@ -1,0 +1,5 @@
+# EA / Origin - Pi-hole allowlist
+# Cloud savegame sync.
+# Updated: 2026-06
+
+cloudsync-prod.s3.amazonaws.com

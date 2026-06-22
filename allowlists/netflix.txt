@@ -1,0 +1,7 @@
+# Netflix - Pi-hole allowlist
+# Core endpoints required for Netflix to work correctly.
+# Updated: 2026-06
+
+api-global.netflix.com
+appboot.netflix.com
+secure.netflix.com

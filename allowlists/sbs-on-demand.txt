@@ -5,8 +5,6 @@
 #
 # Note: SBS uses server-side ad insertion on some streams; DNS can't strip those ads.
 #       The aim here is to get the player to load and play.
-#       If an "ad blocker detected" message appears, watch the Query Log while launching
-#       and append whatever SBS-specific domain shows as blocked.
 # Updated: 2026-06
 
 # (no SBS-unique exact domains required beyond the shared file + sbs.com.au regex)

@@ -23,3 +23,8 @@
 
 # --- Twitter / X (images & media) ---
 (\.|^)twimg\.com$
+
+# --- Reddit (media subdomains + main domains) ---
+[a-z]\.thumbs\.redditmedia\.com
+(\.|^)redd\.it$
+(\.|^)reddit\.com$
