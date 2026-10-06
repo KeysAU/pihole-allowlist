@@ -1,8 +1,7 @@
 # Google services - Pi-hole allowlist
-# Maps, YouTube (history + iOS app), Play, Fonts, Gmail, Android TV, Push, connectivity check.
-# Push is also a broader regex (add manually): ^((alt)[0-9](-))?mtalk\.google\.com$
-#   -> see regex/regex-allow.txt
-# Updated: 2026-06
+# Maps, YouTube (history + iOS app), Play, Fonts, Gmail, Android TV, push (FCM),
+# connectivity check.
+# Updated: 2026-10
 
 # Maps & core Google services
 clients4.google.com
@@ -29,8 +28,27 @@ googleapis.l.google.com
 # Android TV
 redirector.gvt1.com
 
-# Push notifications (some Android apps, e.g. WhatsApp)
+# Push notifications - Firebase Cloud Messaging (FCM)
+# This is what wakes Android apps for notifications (Telegram, WhatsApp, Signal, Gmail...).
+# Full hostname set from Firebase's "Configure your network for FCM" doc. Listing the
+# alt1-8 hosts here as exact domains means the mtalk regex in regex-allow.txt is now
+# optional rather than required.
 mtalk.google.com
+mtalk4.google.com
+mtalk-staging.google.com
+mtalk-dev.google.com
+alt1-mtalk.google.com
+alt2-mtalk.google.com
+alt3-mtalk.google.com
+alt4-mtalk.google.com
+alt5-mtalk.google.com
+alt6-mtalk.google.com
+alt7-mtalk.google.com
+alt8-mtalk.google.com
+android.apis.google.com
+device-provisioning.googleapis.com
+firebaseinstallations.googleapis.com
+fcm.googleapis.com
 
 # Connectivity check (fixes Android / Chromecast "no internet" drops)
 connectivitycheck.gstatic.com

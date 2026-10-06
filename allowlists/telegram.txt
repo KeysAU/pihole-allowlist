@@ -1,0 +1,41 @@
+# Telegram - Pi-hole allowlist
+# Links, web client, bot API, media CDN, Instant View, Telegram Desktop updates.
+#
+# NOTE: On Android the notification wake-up is delivered by Google FCM, not by
+#       Telegram - so if notifications are delayed or missing, the fix is the
+#       "Push notifications - FCM" section in google.txt. On iOS it is APNs
+#       (push.apple.com regex in regex/regex-allow.txt). Core messaging itself
+#       connects to Telegram by IP (MTProto) and does not depend on DNS.
+# Updated: 2026-10
+
+# Core / links / web / bot API
+telegram.org
+www.telegram.org
+telegram.me
+t.me
+web.telegram.org
+core.telegram.org
+api.telegram.org
+
+# Web client data centres
+venus.web.telegram.org
+pluto.web.telegram.org
+aurora.web.telegram.org
+vesta.web.telegram.org
+flora.web.telegram.org
+
+# Media / CDN
+telesco.pe
+cdn-telegram.org
+cdn1.cdn-telegram.org
+cdn2.cdn-telegram.org
+cdn3.cdn-telegram.org
+cdn4.cdn-telegram.org
+cdn5.cdn-telegram.org
+
+# Instant View / Telegraph
+telegra.ph
+
+# Telegram Desktop updates
+tdesktop.com
+updates.tdesktop.com
